@@ -24,7 +24,7 @@ function buscarCep(){
 }
 
 function submitForm(){
-
+    nome = $('#nome').val()
     $('#form-cadastro').remove()
     $('#msg-agradecimento').html(
         `<div class="alert alert-success" role="alert">
@@ -32,6 +32,6 @@ function submitForm(){
         </div>`
     )
     $('#paragrafo').html(
-        `Obrigado(a) por se cadastrar em nosso site`
+        `Obrigado(a) ${nome} por se cadastrar em nosso site`
     )
 }
