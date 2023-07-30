@@ -1,0 +1,18 @@
+.cabecalho{
+    height: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+.foto{
+    max-height: 80%;
+    width: 100%;
+}
+
+.linha{
+    max-height: 80%;
+}
+
+.rodape{ 
+    bottom: 0;
+}

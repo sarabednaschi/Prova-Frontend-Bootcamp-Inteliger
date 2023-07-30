@@ -1,0 +1,24 @@
+.cabecalho{
+    height: 50px;
+    display: flex;
+    align-items: center; 
+}
+
+.titulo{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.rodape{
+    position: fixed; 
+    bottom: 0;
+}
+
+
