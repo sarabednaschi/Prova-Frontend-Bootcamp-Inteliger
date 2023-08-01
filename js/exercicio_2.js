@@ -14,6 +14,7 @@ while (contador < 5) {
 }
 
 const mes = "07";
+    console.log(mes);
 
 let mensagem = "Olá, seja bem vindo!";
 

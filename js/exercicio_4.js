@@ -31,6 +31,9 @@ function submitForm(){
             Cadastro Concluído com Sucesso!
         </div>`
     )
+    $('#voltar').html(
+        ` <a class="btn btn-primary" href="exercicio_4.html">Novo Cadastro</a>`
+    )
     $('#paragrafo').html(
         `Obrigado(a) ${nome} por se cadastrar em nosso site`
     )
